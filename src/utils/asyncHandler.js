@@ -6,8 +6,7 @@ const asyncHandler = (requestHandler) => {
         message: error.message || "Internal Server Error",
       })
     })
-    success}}
+  }
+}
 
-
-export {asyncHandler}
-
+export { asyncHandler }
